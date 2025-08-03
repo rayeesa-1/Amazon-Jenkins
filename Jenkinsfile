@@ -32,11 +32,7 @@ pipeline {
                  sh 'mvn clean install'
             }
         }
-        stage('validate'){
-            steps{
-                sh 'mvn validate'
-            }
-        }
+
 
         
     }
